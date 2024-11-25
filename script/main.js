@@ -1,7 +1,12 @@
 
 let but=document.querySelector("button");
-let color=document.querySelector("body");
-color.style.backgroundColor="red"
+
+
+
+let col=document.querySelector("html");
+col.addEventListener("click",()=>{
+    col.style.backgroundColor="green";
+})
 
 let headiing=document.querySelector("h1");
 but.addEventListener("click",()=>{
